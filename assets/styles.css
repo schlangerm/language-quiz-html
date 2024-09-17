@@ -1,0 +1,32 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+.left {
+    display: block;
+    width: 50%;
+}
+.title {
+    text-align: center;
+}
+.tooltip-text {
+    visibility: hidden;
+}
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+a {
+    color: #057af0;
+}
+
+a:visited {
+    color: #c201c2
+}
+
+body {
+    color:#eee;
+    background: rgb(29, 46, 46);
+}
